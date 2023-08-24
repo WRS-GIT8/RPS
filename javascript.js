@@ -1,3 +1,10 @@
+
+let playerScore = 0
+let computerScore = 0
+let totalRounds = 0
+const roundsToWin = 3
+
+
 function getComputerChoice(){
     let gameChoice
     let compChoice = Math.floor(Math.random() * 3)
